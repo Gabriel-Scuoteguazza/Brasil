@@ -1,6 +1,11 @@
 @import url(./css/global.css);
 @import url(./css/header.css);
 
+.home-foco {
+    border-top: 5px solid #08244d;
+    padding-top: 2.3rem;
+}
+
 body {
     background-color: var(--verde-1);
     height: 100px;
@@ -9,7 +14,7 @@ body {
 
 main h1 {
     /*223*/
-    padding-top: 223px;
+    padding-top: 150px;
     padding-inline-start: 3rem;
     font-weight: 700;
     font-size: 77.1px;
@@ -35,5 +40,5 @@ main a {
 }
 
 .bandeira {
-    margin-top: -20rem;
+    margin-top: -19rem;
 }
