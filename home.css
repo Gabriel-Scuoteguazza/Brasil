@@ -4,6 +4,7 @@
 body {
     background-color: var(--verde-1);
     height: 100px;
+    overflow: hidden;
 }
 
 main h1 {
@@ -31,4 +32,8 @@ main a {
     border: 5px solid var(--amarelo-1);
     padding: 15px 65px;
     
+}
+
+.bandeira {
+    margin-top: -20rem;
 }

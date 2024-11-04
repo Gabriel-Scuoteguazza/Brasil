@@ -7,6 +7,11 @@ header {
     height: 6rem;
 }
 
+.viva-brasil a {
+    display: flex;
+    align-items: center;
+}
+
 nav {
     display: flex;
     gap: 4.375rem;
