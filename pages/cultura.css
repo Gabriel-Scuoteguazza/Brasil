@@ -1,0 +1,65 @@
+@import url(../css/global.css);
+@import url(../css/header.css);
+ 
+.cultura-foco {
+    border-top: 5px solid #08244d;
+    padding-top: 2.3rem;
+}
+main {
+    padding-top: -50px;
+}
+body {
+    background-color: var(--verde-1);
+    height: 100px;
+    overflow: hidden;
+}
+
+main h1 {
+    /*223*/
+    padding-top: 95px;
+    font-weight: 700;
+    font-size: 77.1px;
+    color: var(--amarelo-1);
+}
+
+main p {
+    padding-bottom: 24px;
+    font-size: 21.1px;
+    color: var(--amarelo-1);
+}
+
+.conteudo {
+    display: flex;
+    gap: 20px;
+}
+
+.texto p {
+    margin-bottom: 15px; 
+}
+
+.texto {
+    margin-left: 150px;      
+    margin-right: 100px;
+}
+
+.texto h1 {
+    margin-bottom: 30px;
+}
+
+
+.pandeiro-paragrafo {
+    display: flex;
+    justify-content: row;
+}
+
+.img-cultura {
+    padding-top: -15px;
+    width: 1500px;
+    border-top-right-radius: 15px;
+}
+
+.pandeiro {
+    width: 150px;
+    height: 80px;
+    margin-right: 20px;
+}

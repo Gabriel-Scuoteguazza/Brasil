@@ -1,0 +1,64 @@
+@import url(../css/global.css);
+@import url(../css/header.css);
+
+.historia-foco {
+    border-top: 5px solid #08244d;
+    padding-top: 2.3rem;
+}
+
+body {
+    background-color: var(--verde-1);
+    color: var(--amarelo-1);
+}
+
+main {
+    display: flex;
+    gap: 5rem;
+
+}
+
+main h1 {
+    font-size: 87px;
+    padding-left: 130px;
+    margin-top: 20px;
+}
+
+.lado-a-lado {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.lado-a-lado img {
+    width: 9%;
+    height: auto;
+}
+
+.lado-a-lado h2 {
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+main h2 {
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.parte1 p {
+    padding-left: 75px;
+    padding-bottom: 25px;
+}
+
+.parte2 img{
+    width: 600px;
+    height: auto;
+    border-bottom: 200px solid var(--azul-1);
+}
+
+.dentro {
+    position: absolute;
+}
+

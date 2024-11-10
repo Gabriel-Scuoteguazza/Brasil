@@ -21,13 +21,12 @@ main h1 {
     color: var(--amarelo-1);
 }
 
-main p {
+main h2 {
     padding-inline-start: 3rem;
     padding-bottom: 50px;
     font-size: 21.1px;
     font-style: italic;
     color: var(--amarelo-1);
-
 }
 
 main a {
@@ -35,7 +34,7 @@ main a {
     text-decoration: none;
     color: var(--amarelo-1);
     border: 5px solid var(--amarelo-1);
-    padding: 15px 65px;
+    padding: 15px 65px; 
     
 }
 
