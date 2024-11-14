@@ -9,12 +9,17 @@
 body {
     background-color: var(--verde-1);
     color: var(--amarelo-1);
+    height: 100px;
+    overflow: hidden;
 }
 
 main {
     display: flex;
-    gap: 5rem;
+    justify-content: space-between;
+}
 
+main div {
+    width: 700px;
 }
 
 main h1 {
@@ -41,21 +46,60 @@ main h1 {
     padding-top: 5px;
 }
 
+
+.dentro {
+    margin-top: -180px;
+}
+
 main h2 {
     font-style: italic;
     font-weight: 700;
     font-size: 20px;
 }
 
+
 .parte1 p {
     padding-left: 75px;
     padding-bottom: 25px;
+    font-size: 18px;
+}
+
+.descobrimento-brasil {
+    width: 700px;
+    height: 300px;
 }
 
 .parte2 img{
-    width: 600px;
-    height: auto;
-    border-bottom: 200px solid var(--azul-1);
+    width: 700px;
+    height: 300px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    gap: 10px; /* Controla o espaçamento entre os elementos */
+}
+
+.textos p {
+    padding-inline: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.textos h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin: 0; /* Remove margens extras ao redor do título */
+}
+
+.parte2 {
+    background-color: var(--azul-1);
+}
+
+.inicialmente {
+    margin-top: 15px;
 }
 
 

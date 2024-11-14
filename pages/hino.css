@@ -1,0 +1,65 @@
+@import url(../css/global.css);
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+main {
+    position: relative;
+    height: 100%;
+}
+
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+}
+
+.viva-brasil a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    color: var(--amarelo-1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+nav {
+    display: flex;
+    gap: 4.375rem;
+
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 5rem;
+    height: 6rem;
+}
+
+.viva-brasil a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+nav {
+    display: flex;
+    gap: 4.375rem;
+
+}
+
+nav a {
+    color: var(--amarelo-1);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
