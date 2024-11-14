@@ -2,14 +2,14 @@
 @import url(../css/header.css);
 
 .historia-foco {
-    border-top: 5px solid #08244d;
+    border-top: 0.313rem solid var(--azul-3);
     padding-top: 2.3rem;
 }
 
 body {
     background-color: var(--verde-1);
     color: var(--amarelo-1);
-    height: 100px;
+    height: 6.25rem;
     overflow: hidden;
 }
 
@@ -19,21 +19,21 @@ main {
 }
 
 main div {
-    width: 700px;
+    width: 43.75rem;
 }
 
 main h1 {
-    font-size: 87px;
-    padding-left: 130px;
-    margin-top: 20px;
+    font-size: 5.438rem;
+    padding-left: 8.125rem;
+    margin-top: 1.25rem;
 }
 
 .lado-a-lado {
     display: flex;
     justify-content: flex-start;
-    padding-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-left: 3.125rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 .lado-a-lado img {
@@ -42,56 +42,54 @@ main h1 {
 }
 
 .lado-a-lado h2 {
-    padding-left: 25px;
-    padding-top: 5px;
+    padding-left: 1.563rem;
+    padding-top: 0.313rem;
 }
 
 
 .dentro {
-    margin-top: -180px;
+    margin-top: -11.25rem;
 }
 
 main h2 {
     font-style: italic;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 
 .parte1 p {
-    padding-left: 75px;
-    padding-bottom: 25px;
-    font-size: 18px;
+    padding-left: 4.688rem;
+    padding-bottom: 1.563rem;
+    font-size: 1.125rem;
 }
 
 .descobrimento-brasil {
-    width: 700px;
-    height: 300px;
+    width: 43.75rem;
+    height: 18.75rem;
 }
 
 .parte2 img{
-    width: 700px;
-    height: 300px;
+    width: 43.75rem;
+    height: 18.75rem;
 }
 
 .textos {
     display: flex;
-    flex-direction: column; /* Organiza os itens verticalmente */
-    gap: 10px; /* Controla o espaçamento entre os elementos */
+    flex-direction: column; 
+    gap: 0.625rem; 
 }
 
 .textos p {
-    padding-inline: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 18px;
+    padding-inline: 1.25rem;
+    padding-bottom: 0.938rem;
+    font-size: 1.125rem;
 }
 
 .textos h2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    margin: 0; /* Remove margens extras ao redor do título */
+    padding-top: 1.563rem;
+    padding-bottom: 0.313rem;
+    padding-left: 1.25rem;
 }
 
 .parte2 {
@@ -99,7 +97,15 @@ main h2 {
 }
 
 .inicialmente {
-    margin-top: 15px;
+    margin-top: 0.938rem;
+}
+
+.descobrimento-brasil {
+    border-top-right-radius: 0.313rem;
+}
+
+.escravidao-negros {
+    border-top-left-radius: 0.313rem;
 }
 
 

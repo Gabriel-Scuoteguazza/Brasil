@@ -2,48 +2,47 @@
 @import url(../css/header.css);
  
 .cultura-foco {
-    border-top: 5px solid #08244d;
+    border-top: 0.313rem solid var(--azul-3);
     padding-top: 2.3rem;
 }
 main {
-    padding-top: -50px;
+    padding-top: -3.125rem;
 }
 body {
     background-color: var(--verde-1);
-    height: 100px;
+    height: 6.25rem;
     overflow: hidden;
 }
 
 main h1 {
-    /*223*/
-    padding-top: 95px;
+    padding-top: 5.938rem;
     font-weight: 700;
-    font-size: 77.1px;
+    font-size: 4.819rem;
     color: var(--amarelo-1);
 }
 
 main p {
-    padding-bottom: 24px;
-    font-size: 21.1px;
+    padding-bottom: 1.5rem;
+    font-size: 1.319rem;
     color: var(--amarelo-1);
 }
 
 .conteudo {
     display: flex;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .texto p {
-    margin-bottom: 15px; 
+    margin-bottom: 0.938rem; 
 }
 
 .texto {
-    margin-left: 150px;      
-    margin-right: 100px;
+    margin-left: 9.375rem;      
+    margin-right: 6.25rem;
 }
 
 .texto h1 {
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 
@@ -53,13 +52,13 @@ main p {
 }
 
 .img-cultura {
-    padding-top: -15px;
-    width: 1500px;
-    border-top-right-radius: 15px;
+    padding-top: -0.938rem;
+    width: 93.75rem;
+    border-top-right-radius: 0.313rem;
 }
 
 .pandeiro {
-    width: 150px;
-    height: 80px;
-    margin-right: 20px;
+    width: 9.375rem;
+    height: 5rem;
+    margin-right: 1.25rem;
 }

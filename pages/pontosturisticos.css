@@ -2,7 +2,7 @@
 @import url(../css/header.css);
 
 .pontosturisticos-foco {
-    border-top: 5px solid #08244d;
+    border-top: 0.313rem solid var(--azul-3);
     padding-top: 2.3rem;
 }
 
@@ -12,16 +12,16 @@ body {
 }
 
 main h1 {
-    font-size: 55px;
-    padding-left: 130px;
-    margin-top: 50px;
+    font-size: 3.438rem;
+    padding-left: 8.125rem;
+    margin-top: 3.125rem;
 }
 
 section {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 3.125rem;
 }
 
 section a {
@@ -30,54 +30,54 @@ section a {
 }
 
 main img {
-    width: 200px;
+    width: 12.5rem;
     height: auto;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 section h2 {
-    margin-bottom: 15px;
+    margin-bottom: 0.938rem;
     padding: 0; 
 }
 
 
 section p {
     margin-top: 0; 
-    margin-bottom: 20px; 
-    padding-inline: 20px; 
+    margin-bottom: 1.25rem; 
+    padding-inline: 1.25rem; 
 }
 
 
 section .rio, .cataratas {
-    border: 5px solid var(--azul-2);
-    height: 375px;
-    width: 305px;
+    border: 0.313rem solid var(--azul-2);
+    height: 23.438rem;
+    width: 19.063rem;
     display: flex;
-    flex-direction: column;  /* Mantém os itens na vertical */
-    justify-content: flex-end;  /* Os itens começam no topo */
-    align-items: center;  /* Alinha os itens no centro horizontal */
+    flex-direction: column;
+    justify-content: flex-end;  
+    align-items: center;  
     text-align: center;
 }
 
 section h3 {
     width: 100%;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 1.25rem;
+    padding: 0.625rem;
     background-color: var(--azul-2);
     text-align: center;
     font-weight: bold;
-    margin-top: auto;  /* Isso empurra o <h3> para a parte inferior da div */
+    margin-top: auto; 
     align-self: flex-end;
 }
 
 .pelourinho {
-    border: 5px solid var(--azul-2);
-    height: 375px;
-    width: 305px;
+    border: 0.313rem solid var(--azul-2);
+    height: 23.438rem;
+    width: 19.063rem;
     display: flex;
-    flex-direction: column;  /* Mantém os itens na vertical */
-    justify-content: flex-end;  /* Os itens começam no topo */
-    align-items: center;  /* Alinha os itens no centro horizontal */
+    flex-direction: column;
+    justify-content: flex-end;  
+    align-items: center; 
     text-align: center;
 }
 
